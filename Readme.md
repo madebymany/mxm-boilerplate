@@ -29,6 +29,6 @@ Run ``rails generate mxm:setup``
 1. HTML5 Boilerplate layout
 2. Partials for headers / footers / tracking
 
-# Licence
+# License
 
 http://www.opensource.org/licenses/MIT
