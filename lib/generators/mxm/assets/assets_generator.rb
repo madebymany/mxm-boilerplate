@@ -1,6 +1,6 @@
 module Mxm
   module Generators
-    class AssetsGenerator < Rails::Generators::Base
+    class AssetsGenerator < ::Rails::Generators::Base
       source_root File.expand_path('../templates', __FILE__)
      
       def generate_stylesheets

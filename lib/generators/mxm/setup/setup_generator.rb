@@ -1,6 +1,6 @@
 module Mxm
   module Generators
-    class SetupGenerator < Rails::Generators::Base
+    class SetupGenerator < ::Rails::Generators::Base
       source_root File.expand_path('../templates', __FILE__)
      
       def generate_all

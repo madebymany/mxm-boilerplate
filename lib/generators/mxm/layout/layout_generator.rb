@@ -1,6 +1,6 @@
 module Mxm
   module Generators
-    class LayoutGenerator < Rails::Generators::Base
+    class LayoutGenerator < ::Rails::Generators::Base
       source_root File.expand_path('../templates', __FILE__)
      
       def generate_layout
