@@ -5,7 +5,8 @@ Sensible front-end defaults for your project.
 ## Usage
 
 Add to your gemfile: ``gem "mxm-boilerplate"``
-Run ''rails generate mxm:setup''
+
+Run ``rails generate mxm:setup``
 
 ## What you get
 
