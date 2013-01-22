@@ -1,0 +1,2 @@
+# MxM Boilerplate Rails
+

@@ -1,0 +1,5 @@
+Description:
+    Installs MxM Defaults on your application. Warning. Will wipe your application.js and application.css files.
+
+Example:
+    rails generate mxm:setup
