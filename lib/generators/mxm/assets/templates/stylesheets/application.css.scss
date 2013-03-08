@@ -5,13 +5,13 @@
 //-----------------------------------------
 @import "variables";
 @import "normalize";
+@import "flynn";
 
 //-----------------------------------------
 // Base
 //-----------------------------------------
 
 @import "base/default";
-@import "base/grid";
 @import "base/typography";
 @import "base/lists";
 @import "base/helpers";

@@ -1,0 +1,99 @@
+/*
+- Author: Callum Jefferies (callum@madebymany.co.uk)
+- License: MIT
+- Version: 1.5
+*/
+
+
+.columns,
+.column {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.columns:after,
+.column:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    padding: .5em;
+}
+
+.no-gutter {
+    padding: 0 !important;
+}
+
+
+/*
+Column sizes
+================
+ 1. 8.333333333333334%
+ 2. 16.666666666666668%
+ 3. 25%
+ 4. 33.333333333333336%
+ 5. 41.66666666666667%
+ 6. 50%
+ 7. 58.333333333333336%
+ 8. 66.66666666666667%
+ 9. 75%
+10. 83.33333333333334%
+11. 91.66666666666667%
+12. 100%
+*/
+
+.column {
+    width: 8.333333333333334%;
+}
+
+.span-two {
+    width: 16.666666666666668%;}
+.span-three {
+    width: 25%;}
+.span-four {
+    width: 33.333333333333336%;}
+.span-five {
+    width: 41.66666666666667%;}
+.span-six {
+    width: 50%;}
+.span-seven {
+    width: 58.333333333333336%;}
+.span-eight {
+    width: 66.66666666666667%;}
+.span-nine {
+    width: 75%;}
+.span-ten {
+    width: 83.33333333333334%;}
+.span-eleven {
+    width: 91.66666666666667%;}
+.span-twelve {
+    width: 100%;}
+
+.nudge-by-one {
+    margin-left: 8.333333333333334%;}
+.nudge-by-two {
+    margin-left: 16.666666666666668%;}
+.nudge-by-three {
+    margin-left: 25%;}
+.nudge-by-four {
+    margin-left: 33.333333333333336%;}
+.nudge-by-five {
+    margin-left: 41.66666666666667%;}
+.nudge-by-six {
+    margin-left: 50%;}
+.nudge-by-seven {
+    margin-left: 58.333333333333336%;}
+.nudge-by-eight {
+    margin-left: 66.66666666666667%;}
+.nudge-by-nine {
+    margin-left: 75%;}
+.nudge-by-ten {
+    margin-left: 83.33333333333334%;}
+.nudge-by-eleven {
+    margin-left: 91.66666666666667%;}
