@@ -19,18 +19,16 @@
       <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
     <![endif]-->
 
-    <%= render "layouts/header" %>
+    <%= render "header" %>
 
-    <div class="l-site-content" role="main">
-      <%= yield %> 
+    <div class="site-content" role="main">
+      <%= yield %>
     </div>
 
-    <%= render "layouts/footer" %>
+    <%= render "footer" %>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="<%= asset_path 'jquery-1.9.0.min.js' %>"><\/script>')</script>
     <%= javascript_include_tag "application" %>
 
-    <%= render "layouts/tracking" %>
+    <%= render "tracking" %>
   </body>
 </html>
