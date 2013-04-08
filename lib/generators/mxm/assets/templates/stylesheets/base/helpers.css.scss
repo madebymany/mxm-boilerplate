@@ -68,7 +68,7 @@
 // Media Box, from Stubbornella (http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/)
 .l-media { margin: 1.6em; }
 
-.l-media, 
+.l-media,
 .l-media-body { overflow:hidden; _overflow:visible; zoom:1; }
 
 .l-media-img { float:left; margin-right: 1.6em; }
@@ -76,18 +76,33 @@
 
 .l-media-img img { display:block; }
 
+
 // Responsive media
-.l-sixteen-by-nine { 
-  padding-top: 56.25%; /* 16:9 */
-  height: 0; 
+// Extend with-aspect-ratio and use the aspect ratio calculator for the correct
+// padding on the top.
+
+// Example usage:
+// .parent {
+//   @extend .with-aspect-ratio;
+//   @include aspect_ratio_padding(16,9);
+// }
+// .child {
+//   @extend .with-aspect-ratio__child;
+//   background:#000;
+// }
+
+@mixin aspect_ratio_padding($width, $height) {
+  padding-top: ($height / $width * 100%); /* aspect ratio as a percentage */
+}
+
+.with-aspect-ratio {
+  height: 0;
   position: relative;
   width: 100%;
 }
 
-.l-sixteen-by-nine iframe,
-.l-sixteen-by-nine video {
+.with-aspect-ratio__child {
   height: 100%; width: 100%;
   left: 0; top: 0;
   position: absolute;
 }
-
