@@ -2,24 +2,24 @@
 // Simple list helper classes
 //-----------------------------------------
 
-.unstyled-list,
-.inline-list,
-.float-list,
-.unstyled-list li,
-.inline-list li,
-.float-list li {
+// unstyled-list-items plural for the UL / OL container element
+// should you need it
+.unstyled-list-items {
   margin: 0; padding: 0;
-}
-
-.unstyled-list li {
   list-style: none;
 }
 
-.inline-list li {
+.unstyled-list-item {
+  @extend .unstyled-list-items;
+}
+
+.inline-list-item {
+  @extend .unstyled-list-items;
   display: inline-block;
 }
 
-.float-list li {
+.float-list-item {
+  @extend .unstyled-list-items;
   display: block;
   float: left;
 }
