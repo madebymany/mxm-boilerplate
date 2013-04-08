@@ -7,6 +7,7 @@ Sensible front-end defaults for your project.
 Add to your gemfile: ``gem "mxm-boilerplate"``
 
 Run ``rails generate mxm:setup``
+Run ``bower install`` to install the frontend dependencies
 
 ## What you get
 
@@ -31,12 +32,12 @@ Run ``rails generate mxm:setup``
 
 # Changelog
 
-*0.0.3* 
+*0.0.3*
 - Upgrade BigBird to latest
 - Remove 16x columns from Flynn grid
 - Drop `controllers` & `views` folders, use `modules` instead
 
-*0.0.2* 
+*0.0.2*
 - Fix imports in CSS
 
 *0.0.1*
