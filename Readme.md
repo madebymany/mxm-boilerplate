@@ -7,7 +7,6 @@ Sensible front-end defaults for your project.
 Add to your gemfile: ``gem "mxm-boilerplate"``
 
 Run ``rails generate mxm:setup``
-Run ``bower install`` to install the frontend dependencies
 
 ## What you get
 
